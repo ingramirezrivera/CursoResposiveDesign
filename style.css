@@ -147,7 +147,7 @@ main {
     scroll-snap-type: x proximity;
     width: 100%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;  
@@ -385,7 +385,7 @@ main {
 .bitcoin-img-container {
     width: 100%;
     min-width: 320px;
-    height: 50vh;
+    height: 25vh;
     background-image: url('./assets/imgs/womanx2.jpg');
     background-position: center;
     background-size: cover;
@@ -517,6 +517,7 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 0 auto;
     height: 150px;
     background-color: var(--bitcoin-orange);
 }
