@@ -146,8 +146,8 @@ main {
     max-width: 500px;
     height: auto;
     margin: 0 auto;
-    font-family: 'Inter', sans-serif;   
-}
+    font-family: 'Inter', sans-serif;  
+} 
 .currency-table--title {
    margin-left: 20%;
    margin-bottom: 20px;
@@ -373,4 +373,171 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/imgs/womanx2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 290;
+    margin: 25px 8px 20px;
+    padding: 0 15px;
+    background-color:  var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+}
+.recommended {
+    position: absolute;
+    width: 120px;
+    min-width: 120px;
+    max-width: 250px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+    font-size: 1.4rem;
+    padding: 6px;
+}
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--price {
+    padding: 0px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.5rem;
+    color: var(--black);
+}
+.plan-card--price span {
+    vertical-align: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;  
+}
+.plan-card--saving {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #757575;
+}
+.plan-card--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+    color: var(--black);
+    
+}
+.arrow-ca {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-image: url('/assets/icons/arrow-right.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left-box ul li{    
+    list-style: none;
+    
+}
+.footer-left-box ul li a {
+    text-decoration: none;
+    color: var(--just-white);
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
 
+
+}
+.footer-rigth-box {
+    display: flex;
+    flex-direction: column;
+}
+.footer-rigth-box p {
+    margin-top: 10px;
+    color: var(--just-white);
+}
