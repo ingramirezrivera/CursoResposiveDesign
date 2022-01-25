@@ -141,13 +141,22 @@ main {
     color: #757575;
 }
 .main-currency-table {
-    width: 70%;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    width: 100%;
     min-width: 235px;
     max-width: 500px;
     height: auto;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;  
 } 
+.currency-table-box{
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 35px;
+}
 .currency-table--title {
    margin-left: 20%;
    margin-bottom: 20px;
@@ -421,8 +430,6 @@ main {
 .plans-container--slider{
     display: flex;
     height: 316px;
-    margin-left: 25px;
-    margin-right: 25px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -530,8 +537,6 @@ footer section {
     line-height: 3rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-
-
 }
 .footer-rigth-box {
     display: flex;
